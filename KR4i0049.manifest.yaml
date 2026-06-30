@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR4i0049/v1
+canonical_location: https://kanripo.org/bkk/KR4i0049/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 作義要訣
+  date: '2015-08-25 00:46:02.328204'
+  source:
+    repository: kanripo
+    path: KR4i0049
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4i0049_000.yaml, hash: 'sha256:345c3a3508c5f93803286295a0e334e6a29c8cebceb4320e338331447cc6368d'}
+  - {seq: 1, filename: KR4i0049_001.yaml, hash: 'sha256:fe82415f6d0bab9cccbf1e33ec95975ea6d8aef04aa2258cfdf9a1eff7200192'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4i0049_000.markers.yaml, hash: 'sha256:de0a678014b49df59488d4138423bd98d984a9bc32e5d41185102ffe00b65897'}
+  - {seq: 1, role: markers, filename: assets/KR4i0049_001.markers.yaml, hash: 'sha256:14e5d296f0fcbf15f97b69889fe5c66caad0af4bb3c2ff4db83ac82ea302c2e7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4i0049_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 430
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4i0049_WYG_000-3a
+    span:
+    - body
+    - 430
+    - 780
+  label: 自序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4i0049_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 2617
+  label: 作義要訣
+  type: section
+  level: 1
+hash: sha256:33f331ab467134c891bf34c57a3b791c41135a8d926ee6550d1b761fc366e3b5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
